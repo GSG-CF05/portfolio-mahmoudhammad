@@ -107,3 +107,49 @@ line-height: 3rem;
   line-height: 2rem;
   font-size: 1.2rem;
 }
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.card i {
+  font-size: 10rem;
+}
+
+.skills .html{
+  color:#f75431;
+}
+.stars i{
+  font-size: 2rem;
+  color: #6d6767;
+}
+.skills .html  .stars i:nth-child(-n+4) {
+  color: gold;
+}
+
+
+.skills .css{
+  color:#146eb0;
+}
+.skills .css  .stars i:nth-child(-n+4) {
+  color: gold;
+}
+.skills .js{
+  color:#efd81d;
+}
+.skills .js  .stars i:nth-child(-n+3) {
+  color: gold;
+}
+
+.skills .github  .stars i:nth-child(-n+3) {
+  color: gold;
+}
