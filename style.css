@@ -89,3 +89,21 @@ line-height: 3rem;
   color: #000024;
   background-color: #00da5d;
 }
+
+.about-me {
+  padding: 2rem;
+  background-color: 
+  #838296;
+  color: #07074d;
+}
+
+.about-me span{
+  color: #0f743a;
+}
+
+.about-me p {
+  color: rgb(39, 38, 35);
+  padding-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
