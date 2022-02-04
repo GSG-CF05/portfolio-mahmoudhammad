@@ -24,7 +24,7 @@ ul li {
   cursor: pointer;
 }
 
-ul li a {
+ a {
   display: block;
   text-decoration: none;
   color: #838296;
@@ -152,4 +152,26 @@ line-height: 3rem;
 
 .skills .github  .stars i:nth-child(-n+3) {
   color: gold;
+}
+
+.projects {
+  background-color: #000024;
+  display: flex;
+  justify-content: space-around;
+  color: #838296;
+  min-height: 300px;
+  flex-wrap: wrap;
+}
+.projects .pro-card {
+  margin: 1rem;
+  flex: 1 1 300px;
+  text-align: center;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.projects .pro-card i {
+  font-size: 3rem;
 }
